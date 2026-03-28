@@ -22,4 +22,18 @@ namespace SistemaColegio
             Siguiente = null;
         }
     }
+
+    public class NodoMateria
+    {
+        public string Nombre { get; set; }
+        public double Nota { get; set; }
+        public NodoMateria Siguiente { get; set; }
+
+        public NodoMateria(string nombre, double nota)
+        {
+            Nombre = nombre;
+            Nota = nota;
+            Siguiente = null;
+        }
+    }
 }
