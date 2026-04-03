@@ -1,0 +1,15 @@
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\obj\Debug\net10.0\Proyecto_SistemaE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\obj\Debug\net10.0\Proyecto_SistemaE.AssemblyInfoInputs.cache
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\obj\Debug\net10.0\Proyecto_SistemaE.AssemblyInfo.cs
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\obj\Debug\net10.0\Proyecto_SistemaE.csproj.CoreCompileInputs.cache
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\obj\Debug\net10.0\Proyecto_SistemaE.sourcelink.json
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\bin\Debug\net10.0\Proyecto_SistemaE.exe
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\bin\Debug\net10.0\Proyecto_SistemaE.deps.json
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\bin\Debug\net10.0\Proyecto_SistemaE.runtimeconfig.json
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\bin\Debug\net10.0\Proyecto_SistemaE.dll
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\bin\Debug\net10.0\Proyecto_SistemaE.pdb
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\obj\Debug\net10.0\Proyecto_SistemaE.dll
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\obj\Debug\net10.0\refint\Proyecto_SistemaE.dll
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\obj\Debug\net10.0\Proyecto_SistemaE.pdb
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\obj\Debug\net10.0\Proyecto_SistemaE.genruntimeconfig.cache
+C:\Users\MARIA TERESA\Downloads\Proyecto_SistemaE\obj\Debug\net10.0\ref\Proyecto_SistemaE.dll
