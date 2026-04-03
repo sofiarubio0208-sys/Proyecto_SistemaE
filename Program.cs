@@ -13,7 +13,10 @@ class Program
             Console.Clear();
             Console.WriteLine("=== SISTEMA DE GESTIÓN DE ESTUDIANTES ===");
             Console.WriteLine("1. Agregar estudiante");
-            Console.WriteLine("2. Salir");
+            Console.WriteLine("2. Buscar estudiante");
+            Console.WriteLine("3. Eliminar estudiante");
+            Console.WriteLine("4. Listar estudiantes");
+            Console.WriteLine("5. Salir");
             Console.Write("Opción: ");
             string opcion = Console.ReadLine();
 
@@ -36,12 +39,57 @@ class Program
                     string email = Console.ReadLine() ?? "";
 
                     int codigo = lista.AgregarEstudiante(nombre, apellido, direccion, celular, email);
-                    
                     Console.WriteLine($"Estudiante agregado con código: {codigo}");
                     Console.ReadKey();
                     break;
 
                 case "2":
+                    Console.Write("Código a buscar: ");
+                    if (int.TryParse(Console.ReadLine(), out int codBuscar))
+                    {
+                        NodoEstudiante encontrado = lista.BuscarEstudiante(codBuscar);
+                        if (encontrado != null)
+                        {
+                            Console.WriteLine($"Encontrado: {encontrado.Nombre} {encontrado.Apellido}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Estudiante no encontrado.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Código inválido.");
+                    }
+                    Console.ReadKey();
+                    break;
+
+                case "3":
+                    Console.Write("Código a eliminar: ");
+                    if (int.TryParse(Console.ReadLine(), out int codEliminar))
+                    {
+                        if (lista.EliminarEstudiante(codEliminar))
+                        {
+                            Console.WriteLine("Estudiante eliminado.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Estudiante no encontrado.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Código inválido.");
+                    }
+                    Console.ReadKey();
+                    break;
+
+                case "4":
+                    lista.ListarEstudiantes(); // asegúrate de crearlo
+                    Console.ReadKey();
+                    break;
+
+                case "5":
                     continuar = false;
                     break;
 
