@@ -1,3 +1,5 @@
+using System;
+
 namespace SistemaColegio
 {
     public class NodoEstudiante
@@ -9,6 +11,7 @@ namespace SistemaColegio
         public string Celular { get; set; }
         public string Email { get; set; }
         public NodoEstudiante Siguiente { get; set; }
+        public ListaMaterias Materias { get; set; } // lista de materias
 
         public NodoEstudiante(int codigo, string nombre, string apellido,
                               string direccion, string celular, string email)
@@ -19,6 +22,7 @@ namespace SistemaColegio
             Direccion = direccion;
             Celular = celular;
             Email = email;
+            Materias = new ListaMaterias(); // inicializa la lista
             Siguiente = null;
         }
     }
